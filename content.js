@@ -2,7 +2,7 @@ var removeclasses = ["js-sidebar-zone", "js-zone-container", "adsbygoogle", "adt
 
 var removeids = ["3pCheckIframeId", "div-gpt-ad-codebeautify_org-box-4-0", "div-gpt-ad-codebeautify_org-box-2-0", "div-gpt-ad-codebeautify_org-medrectangle-2-0", "p-Ads", "incontent_player", "carbonads", "AdThrive_Recipe_1_desktop", "taboola-mobile-below-article-thumbnails", "top_ad", "aswift_4_host", "aswift_3_host", "aswift_2_host", "aswift_1_host", "aswift_4", "aswift_3", "aswift_2", "aswift_1", ["ieee.org", "overlay_DFP"], "div-gpt-ad-medium_rectangle_short", ["washingtonpost.com", "leaderboard-wrapper"], "google-top-ads", ["loansocieties.com", "networkRelated-modal-wrapper"], "bottom_sticky_ad", "adrightbottom", "adrighttop", "ad1", ["smithsonianmag.com", "smithsonianmag_adhesion"], ["bbc.com", "sticky-mpu"], ["bbc.com", "sticky-leaderboard"], "ad-standard-wrap", "ob_iframe", "ob_holder", ["yourbump.com", "sm-avantis-container"], ["newsnationnow.com", "widget1"], "AD_Z", "dianomi-module", "ad-feedback__modal-overlay", "skm-ad-frame2", "Lead-0-Ad-Proxy", "Col2-2-Ad-Proxy", ["news.yahoo.com", "viewer-MAST"], ["news.yahoo.com", "viewer-LREC2"], ["yahoo.com", "sda-MAST"], ["yahoo.com", "sda-LDRB2"], ["yahoo.com", "sda-LDRB"],  ["yahoo.com", "sticky-sda-container"], ["yahoo.com", "sda-MON"], "player-ads", ["convertingcolors.com", "_flexbar_"], "push-notifications-primer", "All_Leaderboards", "dp-ads-center-promo_feature_div", "bfad-slot", "sailthru-overlay-container", "ad-backstage-wrap", "ad-article-rail-default-wrapper", "gpt-leaderboard-ad", ["nytimes.com", "top-wrapper"], "div-gpt-ad-top_leaderboard", "div-gpt-ad-interstitial", "taboola-skip", "regiwall-overlay", "top-right-ad-slot", "top-left-ad-slot", "mobile-ad-wrap", "ad-container", "taboola", ["cnx-software.com", "fixeddbar"], ["yahoo.com", "sb_rel_defaultINARTICLE"], ["orbispatches.com", "vi-smartbanner"], ["nytimes.com", "gateway-content"], "baeldung_adhesion", "mvp-post-bot-ad", ["hackaday.com", "leaderboard"], ["nytimes.com", "bottom-wrapper"], "dfp_leaderboard", ["stylefood.ca", "block"], "ad-wrap-bannerTop", "primis-container", "premAd"];
 
-var classfragments = [["ads__index__adWrapper"], ["Advertisement"], ["PageGameAdvertisment"], ["ArticleInjector_clsAvoider"], ["SlideAdPlaceholder__"], ["ad-slot__container"], ["styles-makeit-ad"], ["adWrapper"], ["Ad__Container", true], ["BannerAd", true], ["NativeAd", true], ["ad_container", true], ["adUnitWrapper", true]]; // Fragments of classes, such as "Advertisement-jAf_8q e4Rk1". Putting true as the second element of the array sets display to none instead of hiding it.
+var classfragments = [["ads__index__adWrapper"], ["Advertisement"], ["PageGameAdvertisment"], ["ArticleInjector_clsAvoider"], ["SlideAdPlaceholder__"], ["ad-slot__container"], ["styles-makeit-ad"], ["adWrapper"], ["Ad__Container", true], ["BannerAd", true], ["NativeAd", true], ["ad_container", true], ["adUnitWrapper", true]]; /* Fragments of classes, such as "Advertisement-jAf_8q e4Rk1". Putting true as the second element of the array sets display to none instead of hiding it. */
 
 var iframesrcfragments = ["googlead", "safeframe.googlesyndication", "adservice", "amazon-adsystem.com", "s.yimg.com/rq", "ads.pubmatic.com/AdServer", "cdn.connectad.io/connectmyusers.php", "acdn.adnxs.com/dmp/async_usersync", "eb2.3lift.com/sync", "crb.kargo.com/api/v1", ".taboola.com/sync", "gum.criteo.com/syncframe?origin=", "pandg.tapad.com/tag", ".rubiconproject.com/usync.html", "contextual.media.net/checksync.php", ".rubiconproject.com/utils/xapi/multi-sync.html", "cdn.krxd.net/partnerjs/xdi/proxy", "imprlatbmp.taboola.com/st?", "cdn-gl.imrworldwide.com/novms/html/ls.html", "pixel.mathtag.com/sync/iframe", "insight.adsrvr.org/track", "jsapicdn.com/prebidlink", "rtb.mfadsrvr.com/sync", "public.servenobid.com/sync.html", "//z.moatads.com/", "csync.loopme.me/", "prebid.a-mo.net/isyn", "//p.medocdn.com/prebidlink/", ".doubleclick.net/activityi;src=", "//sdk.minutemedia-prebid.com/cs-config/cs.html", "//ap.lijit.com/beacon?informer=", "//ssc-cms.33across.com/ps/", "//js-sec.indexww.com/um/ixmatch.html", "//cdn.undertone.com/js/usersync.html", "//onetag-sys.com/usync", "//sdk.streamrail.com/cs-config/cs.html", "//i.liadm.com/", "//hbx.media.net/checksync.php", "//c.aaxads.com/aacxs.php", "//secure-us.imrworldwide.com/storageframe.html", "//sync.quantumdex.io/usersync/", "//cdn.aralego.net/ucfad/cookie/sync.html", "//csync.smilewanted.com", "//ib.adnxs.com/getuid", "//sync.inmobi.com/", "//sync.1rx.io/usersync", "//ap.lijit.com/pixel", "//ssum-sec.casalemedia.com/usermatchredir", "//cs.emxdgt.com/um?redirect=", ".doubleclick.net/pixel?", "//ap.lijit.com/beacon", "//cdn.cxense.com/sp", "//usersync.getpublica.com/usersync", "//ssum.casalemedia.com/usermatch", "//action.publicgood.com/embed.html?", "//ad-cdn.technoratimedia.com/html/usersync.html?", "//beta.kaprila.com/a/templates"];
 
@@ -55,7 +55,7 @@ var adblockta = async function() {
             }
         }
         for (var i in document.getElementsByTagName("div")) {
-            // General div-related removal
+            /* General div-related removal */
             
             var thediv = document.getElementsByTagName("div")[i];
             if (!thediv) {
@@ -120,7 +120,7 @@ var adblockta = async function() {
             }
         }
         
-        // General class and id-specific removal code past here
+        /* General class and id-specific removal code past here */
         
         if (window.location.host.includes("nbcnews.com")) {
             for (var i in document.getElementsByClassName("ad-container")) {
@@ -194,7 +194,7 @@ var adblockta = async function() {
             }
         }
         
-        // Paywall blocker code past here
+        /* Paywall blocker code past here */
         
         if (window.location.host.includes("nationalgeographic.com") && document.body && (document.body.style.cssText.includes("overflow-y: hidden; position: fixed;") || document.body.style.cssText.includes("overflow: hidden; position: fixed;"))) {
             document.body.style.cssText = document.body.style.cssText.replace("overflow-y: hidden; position: fixed;", "");
@@ -241,10 +241,10 @@ var adblockta = async function() {
                 continue;
             }
             if (Array.from(allelems[i].classList).length > 0 && /ads-\d{1,5}x\d{1,5}/.exec(Array.from(allelems[i].classList).join(" "))) {
-                allelems[i].remove(); // (not paywall blocker code)
+                allelems[i].remove(); /* (not paywall blocker code) */
             }
             if (allelems[i].ariaLabel && (allelems[i].ariaLabel.toLowerCase().includes("sponsored") || allelems[i].ariaLabel.toLowerCase().includes("advert"))) {
-                allelems[i].style.display = "none"; // (not paywall blocker code)
+                allelems[i].style.display = "none"; /* (not paywall blocker code) */
             }
             for (var k in allelems[i].classList) {
                 if (typeof allelems[i].classList[k] === "string" && allelems[i].classList[k].includes("body__pinnedScrollPaywall")) {
@@ -269,16 +269,16 @@ var adblockta = async function() {
             }
         }
         
-        // Tracking image remover code past here
+        /* Tracking image remover code past here */
         
-        // Remember to be extremely selective when adding code here
+        /* Remember to be extremely selective when adding code here */
         
         for (var i in document.getElementsByTagName("img")) {
             var theimg = document.getElementsByTagName("img")[i];
             if (!(theimg instanceof HTMLElement)) {
                 continue;
             }
-            if (theimg.height > 8 || theimg.width > 8) { // Just to check for tracking images up to 8x8
+            if (theimg.height > 8 || theimg.width > 8) { /* Just to check for tracking images up to 8x8 */
                 continue;
             }
             for (var j in trackingimagesrcfragments) {
