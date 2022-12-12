@@ -293,7 +293,7 @@ var adblockta = async function() {
             }
         }
         
-        // Close button presses past here
+        /* Close button presses past here */
         
         for (var i in document.getElementsByClassName("pgCloseBtn")) {
             if (document.getElementsByClassName("pgCloseBtn") && document.getElementsByClassName("pgCloseBtn")[i] && typeof document.getElementsByClassName("pgCloseBtn")[i].click === "function") {
@@ -312,7 +312,7 @@ var adblockta = async function() {
             document.getElementById("model__close").click();
         }
         
-        // Specific removal of elements based on hostname past here
+        /* Specific removal of elements based on hostname past here */
         
         if (window.location.hostname.includes("enjoytaiwan.co.kr") && typeof h237 !== "undefined") {
             h237.nextFunction = function() {}
